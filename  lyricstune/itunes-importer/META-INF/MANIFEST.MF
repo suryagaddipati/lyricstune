@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test Plug-in
+Bundle-SymbolicName: itunesImporter;singleton:=true
+Bundle-Version: 1.0.0
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.junit
+Bundle-ClassPath: lib/args4j-2.0.1.jar,
+ lib/com4j.jar,
+ lib/tlbimp.jar,
+ .,
+ lib/jaxb1-impl.jar,
+ lib/jaxb-api.jar,
+ lib/jaxb-impl.jar,
+ lib/jaxb-xjc.jar,
+ lib/js.jar,
+ lib/jsr173_1.0_api.jar,
+ lib/activation.jar
